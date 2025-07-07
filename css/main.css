@@ -1,0 +1,39 @@
+body {
+    background-color: #F7F7F7;
+    margin: 0;
+    padding: 0;
+}
+
+.mini_banner {
+    height: 50px;
+    background-color: #D4E9F9;
+    justify-content: center;
+}
+
+.mini_banner_content {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    text-align: center;
+    padding: 8px;
+}
+
+.menu_up {
+    background-color: #F7EBE5;
+    height: 48px;
+}
+
+
+
+
+
+.main_menu {
+    height: 160px;
+    
+}
+
+.nav {
+    display: inline;
+    justify-content: center;
+
+}
