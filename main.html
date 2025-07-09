@@ -1,34 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Главная</title>
 </head>
+
 <body>
     <header>
-        <div class="mini_banner">
-                <div class="mini_banner_content"><div class="mini_banner_logo"><img src="img/1.svg" alt=""><img src="img/Group 110.svg" alt=""></div>МИНДАЛЬНАЯ МУКА И НАТУРАЛЬНЫЕ ИНГРЕДИЕНТЫ</div>
-                <div class="mini_banner_content"><img src="img/mini_logo_banner2.svg" alt="">ВСЕГДА СВЕЖЕЕ</div>
-                <div class="mini_banner_content"><img src="img/mini_logo_banner3.svg" alt="">ОПТОВЫЕ ПОСТАВКИ ОТ ПРОИЗВОДИТЕЛЯ</div>
-                <div class="mini_banner_content"><img src="img/mini_logo_banner4.svg" alt="">ДОСТАВКА В ДЕНЬ ЗАКАЗА</div>
+
+        <div class="banner_wrapper">
+            <div class="mini_banner">
+                <div class="mini_banner_content">
+                    <div class="mini_banner_logo">
+                        <img src="img/1.svg" alt="">
+                        <img src="img/Group 110.svg" alt="">
+                    </div>
+                    МИНДАЛЬНАЯ МУКА И НАТУРАЛЬНЫЕ ИНГРЕДИЕНТЫ
+                </div>
+                <div class="mini_banner_content">
+                    <img src="img/mini_logo_banner2.svg" alt="">
+                    ВСЕГДА СВЕЖЕЕ
+                </div>
+                <div class="mini_banner_content">
+                    <img src="img/mini_logo_banner3.svg" alt="">
+                    ОПТОВЫЕ ПОСТАВКИ ОТ ПРОИЗВОДИТЕЛЯ
+                </div>
+                <div class="mini_banner_content">
+                    <img src="img/mini_logo_banner4.svg" alt="">
+                    ДОСТАВКА В ДЕНЬ ЗАКАЗА
+                </div>
+            </div>
         </div>
+
         <div class="menu_up">
             <ul class="info_l">
-                <li>Гарантия свежести</li>
-                <li>Доставка и оплата</li>
-                <li>Оптовые поставки</li>
-                <li>Контакты</li>
+                <li><a href="#" style="text-decoration: none; color: black;">Гарантия свежести</a></li>
+                <li><a href="#" style="text-decoration: none; color: black;">Доставка и оплата</a></li>
+                <li><a href="#" style="text-decoration: none; color: black;">Оптовые поставки</a></li>
+                <li><a href="#" style="text-decoration: none; color: black;">Контакты</a></li>
             </ul>
             <ul class="info_r">
-                <li><img src="img/place.svg" alt="">Санкт-Петербург<img src="img/стрелка.svg" alt=""></li>
+                <li>
+                        <form action="" class="menu_list">
+                            <label for="city-select"><img src="img/place.svg" alt=""></label>
+                            <select name="city" id="city-select">
+                                <option value="">Санкт-Петербург<img src="img/стрелка.svg" alt=""></option>
+                                <option value="petersburg">Санкт-Петербург</option>
+                                <option value="samara">Самара</option>
+                                <option value="perm">Пермь</option>
+                                <option value="novosibirsk">Новосибирск</option>
+                            </select>
+                        </form>
+                </li>
                 <li><img src="img/phone.svg" alt="">8 812 309-82-88</li>
                 <li><img src="img/bag.svg" alt="">В корзине сейчас (0 товаров)</li>
-                <li><img src="img/tg.svg" alt=""><img src="img/vk.svg" alt=""><img src="img/ok.svg" alt=""></li>
+                <li class="social_media"><img src="img/tg.svg" alt=""><img src="img/vk.svg" alt=""><img src="img/ok.svg" alt=""></li>
             </ul>
         </div>
         <div class="main_menu">
@@ -45,7 +78,7 @@
     </header>
 
 
-
-<script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
+
 </html>

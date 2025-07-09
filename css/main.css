@@ -1,39 +1,124 @@
 body {
-    background-color: #F7F7F7;
-    margin: 0;
-    padding: 0;
+  background-color: #F7F7F7;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 .mini_banner {
-    height: 50px;
-    background-color: #D4E9F9;
-    justify-content: center;
+  height: 50px;
+  background-color: #D4E9F9;
+  justify-content: center;
 }
 
 .mini_banner_content {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    display: inline-block;
-    text-align: center;
-    padding: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  display: inline-block;
+  text-align: center;
+  padding: 8px;
 }
 
-.menu_up {
-    background-color: #F7EBE5;
-    height: 48px;
+.banner_wrapper {
+  width: 100%;
+  overflow: hidden;
+  background-color: #d5ecfb;
+  /* как на картинке */
 }
+
+.mini_banner {
+  display: flex;
+  width: max-content;
+  gap: 500px;
+  animation: scroll 24s linear infinite;
+}
+
+.mini_banner_content {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+/* Анимация прокрутки */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+.menu_up {
+  background-color: #F7EBE5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.info_l {
+  display: flex;
+  list-style-type: none;
+  gap: 14px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.info_r {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.menu_list {
+  display: flex;
+}
+
+.menu_list img {
+  width: 24px;
+  height: 24px;
+}
+
+.menu_list select {
+  border: 0;
+  background-color: initial;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  display: inline;
+}
+
+.social_media {
+  display: flex;
+  height: 24px;
+  width: 24px;
+}
+
+
 
 
 
 
 
 .main_menu {
-    height: 160px;
-    
+  height: 160px;
 }
 
 .nav {
-    display: inline;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 15px;
+  text-transform: uppercase;
+}
 
+.nav li{
+  display: flex;
 }
