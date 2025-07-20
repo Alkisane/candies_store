@@ -61,7 +61,7 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
-  
+
 }
 
 .info_l {
@@ -81,11 +81,6 @@ body {
   display: flex;
 }
 
-.menu_list img {
-  width: 24px;
-  height: 24px;
-}
-
 .menu_list select {
   border: 0;
   background-color: initial;
@@ -101,14 +96,26 @@ body {
   width: 24px;
 }
 
+.strelka {
+  width: 10px;
+  height: 14px;
+}
 
-
-
+.discount {
+  width: 24px;
+  height: 24px;
+}
 
 
 
 .main_menu {
   height: 160px;
+  text-align: center;
+}
+
+.logo {
+  width: 124px;
+  height: 124px;
 }
 
 .nav {
@@ -120,5 +127,17 @@ body {
 }
 
 .nav li{
+  display: inline-flex;
+  
+}
+
+.content{
+  width: 100%;
+  height: 480px;
+  background-color: #F7F7F7;
+}
+
+.background_content {
   display: flex;
 }
+
